@@ -1,0 +1,146 @@
+/*CSS for header 1*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: signika;
+}
+.header {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e0e0;
+    padding: 10px 20px;
+  }
+  .header-right{
+    margin-top: 5px;
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    padding: 10px 200px;
+  }
+  .header-right a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header-right a:hover {
+    background-color: rgb(150, 145, 145);
+    color: black;
+  }
+  #active {
+    background-color: rgb(140, 142, 143);
+    color: white;
+  }
+  /*CSS for header 2*/
+  .headerbelow{
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    background-color: #a1bbb071;
+  }
+  .headerbelow a{
+    text-decoration: none;
+    color: black;
+  }
+  .headerbelow li{
+    padding: 35px;
+    margin: 0 25px;
+    font-size: large;
+    font-weight: 800;
+  }
+  
+  .steps{
+    margin-left: 30em;
+  }
+  .greencolor{
+    color: rgb(12, 90, 12);
+  }
+  .steps h2{
+    margin-left: -4.5em;
+  }
+  .change-donor{
+    margin-left: 30em;
+    margin-top: 70px;
+  }
+  .donor-desc{
+    margin-left: 30em;
+    margin-top: 30px;
+  }
+  .step-category span{
+    font-weight: 900;
+    font-size: small;
+  }
+  .step-category li{
+    font-size: small;
+    padding: 5px;
+  }
+  .blue{
+    color:#3073DA;
+    font-weight: 900;
+  }
+  .support-contact{
+    padding: 5px;
+  }
+  .features{
+    margin-left: 30em;
+    margin-top: 25px;
+  }
+  .boxes{
+    height: 400px;
+    width: 900px;
+    background-color: #dddddd;
+    position: relative;
+  }
+  .boxes p{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+  }
+  .featured-stories{
+    display: flex;
+    margin: 1em 20em;
+  }
+  .box-desc{
+    margin-left: 1.5em;
+  }
+  .box-desc h3{
+    color: rgb(12, 90, 12);
+    margin-bottom: 1.5em;
+  }
+  .featured-stories1{
+    display: flex;
+    margin: 1em 20em;
+  }
+  .boxes1{
+    height: 250px;
+    width: 900px;
+    background-color: #dddddd;
+    position: relative;
+  }
+  .boxes1 p{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+  }
+  .box-desc1{
+    margin-left: 1.5em;
+  }
+  .box-desc1 h3{
+    color: rgb(12, 90, 12);
+    margin-bottom: 1.5em;
+  }
+  .footer {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e0e0;
+    padding: 10px 20px;
+  }
+  .footer p{
+    position: absolute;
+    left: 20%;
+  }
